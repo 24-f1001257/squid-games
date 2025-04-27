@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Milestone';
+    src: url(fonts/milestone.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Zilla';
+    src: url(fonts/zillaslab.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Brico';
+    src: url(fonts/brico.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'East';
+    src: url(fonts/EastSeaDokdo.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Beach';
+    src: url(fonts/beach.ttf) format('truetype');
+}
+body{    
+    background-color: #FFF8E8;
+    color: black;
+}
+
+.main{
+    margin-left: 20px;
+}
+h1{
+    font-family: 'East';
+    color: #780000;
+    font-size: 60px;
+    margin: 15px;
+    margin-left: 40px;
+}
+
+h2{
+    font-family: 'Beach';
+    color: #780000;
+    font-size: 40px;
+}
+
+
+.list-group-item{
+    font-family: 'Brico';
+    color: black;
+    background-color: #fde4b0;
+}
+
+.playlist-col{
+    background-color: #fbd074;
+    height: 800px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 5px;
+    position: relative;
+}
+
+#eliminated-list {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    max-height: 90%;
+    overflow-y: auto;
+
+}
+
+#eliminated-list::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.container{
+    width: 40%
+}
+
+.now-playing-col{
+    background-color: #fbd074;
+    height: 400px;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#playing-list{
+    max-height: 300px;
+    max-width: 500px;
+    overflow-y: auto;
+    margin: 20px;
+    margin-left: 40px;
+}
+#playing-list::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.audio-controls{
+    width: 100%;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.foot {
+    font-family: 'Zilla';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #424242;
+}
